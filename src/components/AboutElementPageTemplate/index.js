@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 
 
-const AboutPageTemplate = ({title, content, contentComponent, Counter, paragraph1, paragraph2, paragraph3,
+const AboutPageTemplate = ({title, content, contentComponent, Counter, hideFeeTable, paragraph1, paragraph2, paragraph3,
    paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9}) => {
   const PageContent = contentComponent || Content
 
@@ -16,6 +16,11 @@ var count = 0;
     if (count % 2 == 0){
       return "yellow-background"
     }
+  }
+
+  function hideFeeEntityTable(hideFeeTable){
+    if (hideFeeTable)
+      return "hide-fee-entity-table"
   }
 
   return (
@@ -49,6 +54,7 @@ var count = 0;
                 <p className={assignYellowClass()}>{paragraph2}</p>
                 <p className={assignYellowClass()}>{paragraph3}</p>
                 <p className={assignYellowClass()}>{paragraph4}</p>
+                <table className={hideFeeEntityTable(hideFeeTable)}><th>Patent Office Service</th><th>Large entity fees</th><th>Small entity fees</th><th>Micro entity fees</th></table>
                 <p className={assignYellowClass()}>{paragraph5}</p>
                 <p className={assignYellowClass()}>{paragraph6}</p>
                 <p className={assignYellowClass()}>{paragraph7}</p>
@@ -65,6 +71,7 @@ var count = 0;
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
+  hideFeeTable: PropTypes.bool,
   contentComponent: PropTypes.func,
 }
 

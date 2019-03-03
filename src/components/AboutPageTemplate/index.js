@@ -38,33 +38,33 @@ const AboutPageTemplate = ({ title, attorney,content, contentComponent }) => {
                     WHAT SHOULD BE PATENTED (AND WHAT SHOULD NOT)
                   </Link>
                   <br />
-                  <Link to="AboutPatenting/prototyping_and_invention_promotion_firms">
-                    PROTOTYPING AND INVENTION PROMOTION FIRMS
+                  <Link to="AboutPatenting/invention_promotion_and_prototyping_firms">
+                    INVENTION PROMOTION AND PROTOTYPING FIRMS
                   </Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">
+                  <Link to="AboutPatenting/patent_office_fees_and_discounts">
                     PATENT OFFICE FEES AND DISCOUNTS
                   </Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">PATENT SEARCHES</Link>
+                  <Link to="AboutPatenting/patent_searches">PATENT SEARCHES</Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">
+                  <Link to="AboutPatenting/provisional_patent_applications">
                     PROVISIONAL PATENT APPLICATIONS
                   </Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">
+                  <Link to="AboutPatenting/utility_patent_applications">
                     UTILITY PATENT APPLICATIONS
                   </Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">PATENT PROSECUTION</Link>
+                  <Link to="AboutPatenting/patent_prosecution">PATENT PROSECUTION</Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">ISSUANCE AND MAINTENANCE</Link>
+                  <Link to="AboutPatenting/issuance_and_maintenance">ISSUANCE AND MAINTENANCE</Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">FOREIGN PATENT PROTECTION</Link>
+                  <Link to="AboutPatenting/foreign_patent_protection">FOREIGN PATENT PROTECTION</Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">LICENSING AND ENFORCEMENT</Link>
+                  <Link to="AboutPatenting/licensing_and_enforcement">LICENSING AND ENFORCEMENT</Link>
                   <br />
-                  <Link to="AboutPatenting/what_a_patent_is">ENGAGING OUR FIRM</Link>
+                  <Link to="AboutPatenting/engaging_our_firm">ENGAGING OUR FIRM</Link>
                 </u>
               </div>
             </div>
