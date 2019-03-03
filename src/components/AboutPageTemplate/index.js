@@ -3,7 +3,7 @@ import Content from "../Content";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
-const AboutPageTemplate = ({ title, content, contentComponent }) => {
+const AboutPageTemplate = ({ title, attorney,content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -27,45 +27,44 @@ const AboutPageTemplate = ({ title, content, contentComponent }) => {
             <div className="column is-10 is-offset-2">
               <div className="section">
                   <strong>
-                  <PageContent className="content" content={content} />
-                  <div>Articles</div>
+                  <div id="attorney">{attorney}</div>
                   </strong>
                   <u>
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/what_a_patent_is">
                     WHAT A PATENT IS (AND WHAT IT IS NOT)
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/what_should_be_patented">
                     WHAT SHOULD BE PATENTED (AND WHAT SHOULD NOT)
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/prototyping_and_invention_promotion_firms">
                     PROTOTYPING AND INVENTION PROMOTION FIRMS
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/what_a_patent_is">
                     PATENT OFFICE FEES AND DISCOUNTS
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">PATENT SEARCHES</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">PATENT SEARCHES</Link>
                   <br />
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/what_a_patent_is">
                     PROVISIONAL PATENT APPLICATIONS
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">
+                  <Link to="AboutPatenting/what_a_patent_is">
                     UTILITY PATENT APPLICATIONS
                   </Link>
                   <br />
-                  <Link to="/what_a_patent_is">PATENT PROSECUTION</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">PATENT PROSECUTION</Link>
                   <br />
-                  <Link to="/what_a_patent_is">ISSUANCE AND MAINTENANCE</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">ISSUANCE AND MAINTENANCE</Link>
                   <br />
-                  <Link to="/what_a_patent_is">FOREIGN PATENT PROTECTION</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">FOREIGN PATENT PROTECTION</Link>
                   <br />
-                  <Link to="/what_a_patent_is">LICENSING AND ENFORCEMENT</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">LICENSING AND ENFORCEMENT</Link>
                   <br />
-                  <Link to="/what_a_patent_is">ENGAGING OUR FIRM</Link>
+                  <Link to="AboutPatenting/what_a_patent_is">ENGAGING OUR FIRM</Link>
                 </u>
               </div>
             </div>

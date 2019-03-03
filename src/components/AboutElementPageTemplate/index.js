@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 
 const AboutPageTemplate = ({title, content, contentComponent, Counter, paragraph1, paragraph2, paragraph3,
-   paragraph4, paragraph5, paragraph6, paragraph7, paragraph8}) => {
+   paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9}) => {
   const PageContent = contentComponent || Content
 
 var count = 0;
@@ -53,6 +53,7 @@ var count = 0;
                 <p className={assignYellowClass()}>{paragraph6}</p>
                 <p className={assignYellowClass()}>{paragraph7}</p>
                 <p className={assignYellowClass()}>{paragraph8}</p>
+                <p className={assignYellowClass()}>{paragraph9}</p>
             </div>
           </div>
         </div>

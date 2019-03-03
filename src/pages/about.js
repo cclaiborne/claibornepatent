@@ -5,7 +5,7 @@ const NewPage = () => (
    <div>
     <AboutPageTemplate
         title = "About Patenting"
-        content = "Anthony Claiborne, Registered Patent Attorney"
+        attorney = "Anthony Claiborne, Registered Patent Attorney"
     />
     </div> 
 )
