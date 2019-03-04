@@ -5,16 +5,20 @@ import AboutElementPageTemplate from '../../components/AboutElementPageTemplate'
 const NewPage = () => (
    <div>
     <AboutElementPageTemplate 
-        title = "WHAT A PATENT IS (AND WHAT IT IS NOT)"
-        paragraph1 = ""
-        paragraph2 = ""
-        paragraph3 = ""
-        paragraph4 = ""
-        paragraph5 = ""
-        paragraph6 = ""
-        paragraph7 = ""
-        paragraph8 = ""
-        paragraph9 = ""
+        title = "PATENTING INVENTIONS ABROAD"
+        paragraph1 = "A patent is a grant by a government to the patent owner (the &quot;patentee&quot;) of the right to exclude others from making, using, selling or importing the invention.  The patent rights may be exercised anywhere that the issuing government has jurisdiction.  A U.S. patent grants exclusive rights to the inventor within the United States, its territories and possessions."
+        paragraph2 = "If an inventor wishes exclusive rights to the invention outside of the U.S., he or she must seek foreign patent protection.  To obtain such protection, an application for patent must be made with the government having jurisdiction over the geography in which patent rights are desired."
+        paragraph3 = "To apply for a patent abroad, an inventor may apply to the foreign patent authority directly, employing foreign counsel who are licensed to practice before the patent authority."
+        paragraph4 = "When foreign patenting in several jurisdictions is desired, however, a process is available for the inventor to commence the patent application process for a number of jurisdictions with just one filing, under the Patent Cooperation Treaty (PCT).  After processing under the PCT, the application is then sent to designated national patent offices for national prosecution, ultimately, it is hoped, to issue as foreign patents."
+        paragraph5 = "To file a patent application under the PCT, a single patent application with PCT filing documents are prepared and filed (along with the necessary fees) with a patent office designated as a receiving office under the PCT.  The USPTO is one of the designated PCT receiving offices, and typically that is where we file PCT applications on behalf of our clients.  The applicant designates in the PCT application those PCT contracting states or regional patent authorities in which a patent is sought."
+        paragraph6 = "Provided it complies with the minimum requirements for obtaining an international filing date, the PCT application has the effect of a national patent application in those PCT contracting states that were designated in the application. It has the effect of a regional patent application in those PCT Contracting States which are also party to a regional patent treaty (the ARIPO Harare Protocol, the Eurasian Patent Convention, the OAPI Agreement, and especially the European Patent Convention) when the regional patent authority is designated in the PCT application."
+        paragraph7 = "The &quot;priority date&quot; of a PCT case is the filing date of the PCT case if it is a new application, or the filing date of the parent application if the PCT case claims priority from an earlier national application filed within a year of filing the PCT case.  The invention in the PCT case is &quot;new&quot; over any reference later than the PCT case's priority date.  The international application is published shortly after 18 months have elapsed from the priority date."
+        paragraph8 = "International patent applications under the PCT are subjected to a search by the international search authority to determine whether the invention meets the PCT standards of patentability: industrial applicability (proper subject matter); novelty; and inventive step (non-obviousness).  For every compliant PCT application, within about four or five months of filing the international search authority will issue an international search report, citing references and giving an indication of the possible relevance of the references to patentability of the claimed invention.  The applicant has the ability to amend the application on the basis of information in the international search report."
+        paragraph9 = "After receipt of the international search report, and perhaps after amendment or further amendment of the application, the applicant has the option to demand an additional examination of the application.  The written results of this additional examination are provided to the applicant in the form of the International Preliminary Examination Report, which further examines the patentability of the applicant's invention in light of references from the international search report and perhaps other references found during the international preliminary examination process."
+        paragraph10 = "For most countries, after receipt of the international search report and the International Preliminary Examination Report (if it was demanded), the applicant may file a national patent application claiming the priority date of the PCT application, provided the national application is filed within 30 months of the priority date of the PCT application."
+        paragraph11 = "The findings in the international search report and the International Preliminary Examination Report are not binding upon a national patent office examining the application.  Rather, these findings are used by the national examiner along with other materials found during the national examination process to make a determination as to whether the invention claimed in the application merits a patent under the patent law of the national office in question."
+        paragraph12 = "The foregoing notes are a fairly substantial simplification of the PCT application process.  For more information, see the World Intellectual Property Organization website at http://www.wipo.int/pct/en."
+        hideFeeTable = "true" 
     />
     </div> 
 )

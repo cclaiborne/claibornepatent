@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 
 const AboutPageTemplate = ({title, content, contentComponent, Counter, hideFeeTable, paragraph1, paragraph2, paragraph3,
-   paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9}) => {
+   paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10, paragraph11, paragraph12}) => {
   const PageContent = contentComponent || Content
 
 var count = 0;
@@ -54,12 +54,17 @@ var count = 0;
                 <p className={assignYellowClass()}>{paragraph2}</p>
                 <p className={assignYellowClass()}>{paragraph3}</p>
                 <p className={assignYellowClass()}>{paragraph4}</p>
-                <table className={hideFeeEntityTable(hideFeeTable)}><th>Patent Office Service</th><th>Large entity fees</th><th>Small entity fees</th><th>Micro entity fees</th></table>
+                <table className={hideFeeEntityTable(hideFeeTable)}>
+                  <th>Patent Office Service</th><th>Large Entity Fees</th><th>Small Entity Fees</th><th>Micro Entity Fees</th>
+                </table>
                 <p className={assignYellowClass()}>{paragraph5}</p>
                 <p className={assignYellowClass()}>{paragraph6}</p>
                 <p className={assignYellowClass()}>{paragraph7}</p>
                 <p className={assignYellowClass()}>{paragraph8}</p>
                 <p className={assignYellowClass()}>{paragraph9}</p>
+                <p className={assignYellowClass()}>{paragraph10}</p>
+                <p className={assignYellowClass()}>{paragraph11}</p>
+                <p className={assignYellowClass()}>{paragraph12}</p>
             </div>
           </div>
         </div>
